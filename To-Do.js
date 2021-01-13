@@ -6,8 +6,8 @@ $(document).ready(function () {
         var txt1 = $(this).prev().prev();
         var int = $(this).prev();
 
-        console.log(txt1.text());
-        console.log(int.val());
+        // console.log(txt1.text());
+        // console.log(int.val());
         if (int.val() == "") {
             int.val(txt1.text());
 
@@ -33,7 +33,7 @@ $(document).ready(function () {
             $(".tl").append(lst);
 
             $(editBtn).on('click' , edit);
-            
+
 
         }
         $("#floatingInput").val("");
@@ -73,8 +73,8 @@ $(document).ready(function () {
 
         // });
 
-        
-        
+
+
 
 
         $(".del").click(function () {
@@ -84,9 +84,7 @@ $(document).ready(function () {
 
 
 
-    
-});
 
-    // console.log(edt);
+});
 
 
